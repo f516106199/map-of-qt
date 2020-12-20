@@ -96,7 +96,6 @@ MainWindow::DijkstraFindPath::DijkstraFindPath()
                    mgraph.arcs[i][j].adj = 0;
                else
                    mgraph.arcs[i][j].adj = INF;
-   //            mgraph.arcs[i][j].info = "";
            }
        }
 }
